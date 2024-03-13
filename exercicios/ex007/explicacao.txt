@@ -1,0 +1,3 @@
+Falado sobre tegs antigas q estão obsoletas
+se tiver vermelha está obsoletas (normalmente)
+O HTML é sobre semantica (Forma é só o CSS)
