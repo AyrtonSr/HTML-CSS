@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon/favicon.ico" type="image/x-icon">
+    <title>Videos</title>
+</head>
+
+<body>
+    <h1>Trabalhando com Vídeos hospedados locamente:</h1>
+    <p>Esse vídeo está hospedado no meu proprio servidor.</p>
+    <video src="midias/meuvideo1.mp4" width="500" controls>Meu video</video>
+    <h2>Forma para colocar em brawlsers diferentes (Mesma ideia de imagens de tamanho diferentes): </h2>
+    <video width="500" poster="../ex011/imagens/foto-p.png" controls>
+        <source src="midias/meuvideo1.mp4" type="video/mp4">
+        <source src="#" type="video/mp4">
+        <source src="#" type="video/webm">
+        <source src="#" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade</p>
+    </video>
+    <p>A ideia é usar uma tag "video" para colocar as tags "source" </p>
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i9zvTjady0U?si=F21Lqu1LzteCKYSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+
+</html>
