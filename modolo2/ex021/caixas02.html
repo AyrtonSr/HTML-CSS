@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon2/favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 15px;
+            box-shadow: 3px 1px 1px black;
+        }
+
+        nav{
+            background-color: rgb(37, 35, 35);
+            padding: 3px;
+            box-shadow: 1px 1px 4px black;
+        }
+
+        nav > a{
+            color: yellow;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: darkgray;
+            padding: 1px 5px;
+        }
+
+        article > aside {
+            background-color: rgb(34, 34, 34);
+            color: white;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer>p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Loucuras e Presidencia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre mim</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eum quae quasi rem quam, accusamus facilis deleniti expedita a vero nulla maxime voluptates reiciendis architecto dolore minus hic, consequuntur quia.</p>
+                <aside>
+                    <p>Escrito por Ayrton</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ayrton</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
