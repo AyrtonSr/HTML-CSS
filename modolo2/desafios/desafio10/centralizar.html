@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../icon2/favicon.ico" type="image/x-icon">
+    <title>Teste de Centralizar</title>
+    <style>
+        div.segunda{
+            border: solid;
+            border-color: black;
+            display: flex;
+            height: 100px;
+            width: 100px;
+        }
+        div.primeira{
+            display: flex;
+            height: 400px;
+            width: 500px;
+            border: solid;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            color: green;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Teste de centralização de div</h1>
+    </header>
+    <main>
+        <div class="primeira">
+            <div class="segunda">
+                <p>C</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
