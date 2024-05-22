@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../icone/favicon.ico" type="image/x-icon">
+    <title>iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <p>Acessando o site do <a href="https://www.cursoemvideo.com" target="_blank">curso em video</a> para aprender a programar</p>
+    <p>
+        Acessando o site do 
+
+        <!--Tamanho padrão de 300/150-->
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" scrolling="no">
+            Não é compativel com iframe, use o link <a href="https://www.cursoemvideo.com" target="_blank"> Curso em Video</a>
+        </iframe>
+        curso em video 
+        para aprender a programar
+    </p>
+    <p>Site do google
+        <iframe src="https://www.google.com.br" frameborder="0" width="500" height="500"></iframe>
+        Não aparece pq o google tem proteções contra iframes de terceiros
+    </p>
+</body>
+</html>
