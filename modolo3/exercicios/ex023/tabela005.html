@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../favicon/favicon.ico
+    " type="image/x-icon">
+    <title>Exercicio de tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+        caption{
+            padding: 8px;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        col.cnome{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ayrton</td>
+                <td>Homem</td>
+                <td>19</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Glenda</td>
+                <td>Mulher</td>
+                <td>20</td>
+                <td>Administradora</td>
+            </tr>
+            <tr>
+                <td>Joaozinho</td>
+                <td>Macho</td>
+                <td>99</td>
+                <td>Encanador</td>
+            </tr>
+            <tr>
+                <td>Diogo</td>
+                <td>Homem</td>
+                <td>21</td>
+                <td>Protagonista</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
