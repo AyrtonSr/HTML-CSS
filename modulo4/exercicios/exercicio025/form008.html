@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../icone/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formularios</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inumero">Número 1: </label>
+            <input type="number" name="numero" id="inumero" min="0" max="50" required oninput="isome.innerHTML = Number(inumero.value) + Number(inumero2.value)">
+        </p>
+        <p>
+            <label for="inumero2">Número 2: </label>
+            <input type="number" name="numero2" id="inumero2" min="0" max="50" required oninput="isome.innerHTML = Number(inumero.value) + Number(inumero2.value)">
+        </p>
+        <p>
+            <label for="isome">Soma: </label>
+            <output name="soma" id="isome">0</output>
+            <!--A soma não envia nada, só mostra na tela, tipo o print sla.-->
+        </p>
+        <br>
+        <p>
+            <label for="inumero3">Número: </label>
+            <input type="range" name="range" id="inumero3" min="0" max="10" oninput="ival.innerHTML = Number(inumero3.value)">
+            <output id="ival">5</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
