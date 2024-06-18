@@ -10,3 +10,84 @@ Typical Devices breakpoints ( 27/05/2024 )
   Desktops, large screens – 1025px — 1200px.
   Extra large screens, TV – 1201px, and more.
 */
+
+@media print{ /*Impressão*/
+  /*NÃO SE IMPRIME BACKGROUND-IMAGE*/
+  body{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  main{
+    border: 2px solid black;
+  }
+
+  main h1{
+    text-shadow: none;
+    color: black;
+  }
+  img#phone{display: none;}
+  img#print{display: block;}
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) { /*Tablets*/
+  main{
+    width: 80vw;
+  }
+  body{
+    background-image: url(../imagens/back-tablet.jpg);
+  }
+  img#phone{display: none;}
+  img#tablet{display: block;}
+  h1{
+    font-size: 6vw;
+  }
+  h2{
+    font-size: 4vw;
+  }
+
+  h2::before{
+    content: "Versão para Tablets";
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) { /*PC*/
+  main{
+    width: 80vw;
+  }
+  body{
+    background-image: url(../imagens/back-pc.jpg);
+  }
+  img#phone{display: none;}
+  img#pc{display: block;}
+  h1{
+    font-size: 6vw;
+  }
+  h2{
+    font-size: 4vw;
+  }
+
+  h2::before{
+    content: "Versão para Monitores";
+  }
+}
+
+@media screen and (min-width: 1201px) { /*TV*/
+  main{
+    width: 80vw;
+  }
+  body{
+    background-image: url(../imagens/back-tv.jpg);
+  }
+  img#phone{display: none;}
+  img#tv{display: block;}
+  h1{
+    font-size: 6vw;
+  }
+  h2{
+    font-size: 4vw;
+  }
+
+  h2::before{
+    content: "Versão para Grandes Telas";
+  }
+}
