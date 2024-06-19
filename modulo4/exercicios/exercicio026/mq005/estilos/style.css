@@ -66,12 +66,10 @@ main{
 
 article > h2{
     padding-bottom: 20px;
-    font-size: 4vw;
 }
 
 article > p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
-    font-size: 2vw;
 }
